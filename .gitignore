@@ -1,0 +1,8 @@
+/dist
+/node_modules
+/wp-test:t
+/wp:t
+/.firebase
+.DS_Store
+/firebase.json
+/.firebaserc

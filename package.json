@@ -1,0 +1,46 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transpile:wp-test": "babel wp-test -d wp-test:t",
+    "start-test": "npm run transpile:wp-test && webpack-dev-server --mode=development --config wp-test:t/webpack.config.js",
+    "build-test": "npm run transpile:wp-test && webpack --mode=production --config wp-test:t/webpack.config.js",
+    "transpile:wp": "babel wp -d wp:t",
+    "start": "npm run transpile:wp && webpack-dev-server --mode=development --config wp:t/webpack.config.js",
+    "build": "npm run transpile:wp && webpack --mode=production --config wp:t/webpack.config.js",
+    "build:firebase":"npm run build&& firebase deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/react": "^9.3.1",
+    "chai": "^4.2.0",
+    "chai-dom": "^1.8.1",
+    "mocha": "^6.2.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^4.2.0",
+    "firebase": "^7.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
