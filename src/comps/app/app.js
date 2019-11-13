@@ -17,6 +17,26 @@ import img2 from '../../images/two.png'
 import img3 from '../../images/three.png'
 import img4 from '../../images/four.png'
 import img5 from '../../images/five.png'
+import img6 from '../../images/six.png'
+import img7 from '../../images/seven.png'
+import img8 from '../../images/eight.png'
+import img9 from '../../images/nine.png'
+import img10 from '../../images/ten.png'
+import img11 from '../../images/eleven.png'
+import img12 from '../../images/twelve.png'
+import img13 from '../../images/thirteen.png'
+import img14 from '../../images/fourteen.png'
+import img15 from '../../images/fifteen.png'
+import img16 from '../../images/sixteen.png'
+import img17 from '../../images/seventeen.png'
+import img18 from '../../images/eighteen.png'
+import img19 from '../../images/nineteen.png'
+import img20 from '../../images/twenty.png'
+import img21 from '../../images/twentyone.png'
+import img22 from '../../images/twentytwo.png'
+import img23 from '../../images/twentythree.png'
+import img24 from '../../images/twentyfour.png'
+import img25 from '../../images/twentyfive.png'
 import {PaginateControl} from '../paginateControl/paginateControl'
 
 export const App=
@@ -63,26 +83,26 @@ export const App=
     {img:img3,redux:redux3,text},
     {img:img4,redux:redux4,text},
     {img:img5,redux:redux5,text},
-    {img:img1,redux:redux6,text},
-    {img:img2,redux:redux7,text},
-    {img:img3,redux:redux8,text},
-    {img:img4,redux:redux9,text},
-    {img:img5,redux:redux10,text},
-    {img:img1,redux:redux1,text},
-    {img:img2,redux:redux2,text},
-    {img:img3,redux:redux3,text},
-    {img:img4,redux:redux4,text},
-    {img:img5,redux:redux5,text},
-    {img:img1,redux:redux6,text},
-    {img:img2,redux:redux7,text},
-    {img:img3,redux:redux8,text},
-    {img:img4,redux:redux9,text},
-    {img:img5,redux:redux10,text},
-    {img:img1,redux:redux1,text},
-    {img:img2,redux:redux2,text},
-    {img:img3,redux:redux3,text},
-    {img:img4,redux:redux4,text},
-    {img:img5,redux:redux5,text},
+    {img:img6,redux:redux6,text},
+    {img:img7,redux:redux7,text},
+    {img:img8,redux:redux8,text},
+    {img:img9,redux:redux9,text},
+    {img:img10,redux:redux10,text},
+    {img:img11,redux:redux1,text},
+    {img:img12,redux:redux2,text},
+    {img:img13,redux:redux3,text},
+    {img:img14,redux:redux4,text},
+    {img:img15,redux:redux5,text},
+    {img:img16,redux:redux6,text},
+    {img:img17,redux:redux7,text},
+    {img:img18,redux:redux8,text},
+    {img:img19,redux:redux9,text},
+    {img:img20,redux:redux10,text},
+    {img:img21,redux:redux1,text},
+    {img:img22,redux:redux2,text},
+    {img:img23,redux:redux3,text},
+    {img:img24,redux:redux4,text},
+    {img:img25,redux:redux5,text},
   ]
   const mockData2=[
     {img:img1,redux:redux1,text:'bye 1'},
